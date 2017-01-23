@@ -1,0 +1,58 @@
+/* xs < 768 */
+@media screen and (max-width: 320px) {
+    body {
+        font-size: 10% !important;
+    }
+
+ 
+
+    img.main {
+        margin-top: -300px;
+       
+    }
+
+    .mtZion {
+        margin-top: 75px;
+    }
+
+    .alps {
+        margin-top: 150px;
+    }
+
+    .bg {
+        min-height: 580px;
+        overflow-wrap: hidden;
+        position: absolute;
+    }
+}
+
+/* sm */
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 1em;
+    }
+
+    .navbar {
+     border-radius: 0px !important; 
+}
+
+/* md */
+@media screen and (min-width: 992px) {
+    body {
+        font-size: 1.2em;
+    }
+}
+
+/* lg */
+@media screen and (min-width: 1200px) {
+    body {
+        font-size: 1.3em;
+    }
+}
+
+
+
+@media (min-width: 768px)
+.navbar {
+    /* border-radius: 4px; */
+}
